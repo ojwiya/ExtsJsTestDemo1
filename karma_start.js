@@ -1,7 +1,7 @@
 module.exports = function(config) {
     config.set({
         // basePath is used to resolve all patterns of files
-        basePath: 'c:/xampp/htdocs/karma_jasmine_2_extjs4',
+        basePath: '/Users/user/Documents/demos/karma_jasmine_2_extjs4',
         // frameworks to select which unit testing framework you will be using
         frameworks: ["jasmine"],
         // for extjs this is tricky as you will need the following files
@@ -13,21 +13,21 @@ module.exports = function(config) {
         // 6 unit test files        
         files: [
             //"http://localhost/ext-4.2.2-ent/ext-4.2.2.1144/ext-all.js", // 1
-            "http://localhost/extjs421/ext-all.js", // 1
+            "extjs/ext-all.js", // 1
             "karma_app_test.js", // 2
             "karma_extjs_appconfig.js", // 3
-            
+
             "app/model/User.js",
             "app/view/user/Edit.js",
             "app/view/user/List.js",
-            { pattern: 'data/users.json', watched: false, included: false, served: true}, // this file will be served when our ajax calls requires it
+            { pattern: 'data/users.json', watched: false, included: false, served: true }, // this file will be served when our ajax calls requires it
             "app/store/Users.js",
             "app/controller/Users.js",
 
             "app-tests/example.js" // you can add as many test files as required.
         ],
         // reporters are different ways to display your reports and/or types of reports
-        reporters: ["dots", "progress", "coverage", "html"],
+        reporters: ["dots", "progress", "coverage", "html", "junit"],
         // Karma's default port is 9876
         port: 9876,
         // your coverage reporter, needs a type and a location to be displayed.
@@ -44,6 +44,16 @@ module.exports = function(config) {
         // setting up the output directory of html Reporter which will reporter the Jasmine unit tests info (what passes and fails)
         htmlReporter: {
             outputDir: 'karma_dir'
+        },
+        junitReporter: {
+            outputDir: '', // results will be saved as $outputDir/$browserName.xml
+            outputFile: 'test_jasmine_js.xml', // if included, results will be saved as $outputDir/$browserName/$outputFile
+            suite: '', // suite will become the package name attribute in xml testsuite element
+            useBrowserName: true, // add browser name to report and classes names
+            nameFormatter: undefined, // function (browser, result) to customize the name attribute in xml testcase element
+            classNameFormatter: undefined, // function (browser, result) to customize the classname attribute in xml testcase element
+            properties: {}, // key value pair of properties to add to the <properties> section of the report
+            xmlVersion: '1' // use '1' if reporting to be per SonarQube 6.2 XML format
         },
         colors: true,
         // when files are served, this proxy will be used to resolved paths, for example in our store's proxy
@@ -63,6 +73,13 @@ module.exports = function(config) {
         singleRun: true,
         // this might be a bug in Karma, because base/ is supposed to be set by default, but somehow, it seems to be required here
         // for Karma to properly find the files.  You can read about this online on various sites.
-        urlRoot: '/base/'
+        urlRoot: '/base/',
+        plugins: [
+            'karma-jasmine',
+            'karma-phantomjs-launcher',
+            'karma-junit-reporter',
+            'karma-coverage',
+            'karma-html-reporter'
+        ]
     });
 };

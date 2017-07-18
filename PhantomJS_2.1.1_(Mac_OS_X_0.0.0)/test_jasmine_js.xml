@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<testsuite name="PhantomJS 2.1.1 (Mac OS X 0.0.0)" package="" timestamp="2017-07-18T06:34:32" id="0" hostname="MacBook-Pro-dom.local" tests="5" errors="0" failures="3" time="0.027">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
+  </properties>
+  <testcase name="Basic Ext Assumption has ExtJS 4 loaded" time="0.003" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Basic Ext Assumption"/>
+  <testcase name="Basic Ext Assumption Basic Controller Assumption Expect UsersController Controller" time="0.005" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Basic Ext Assumption">
+    <failure type="">TypeError: undefined is not an object (evaluating 'this.application.getModel') in /Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js (line 21)
+getModel@/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:402021
+/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:17621
+createGetters@/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:401014
+constructor@/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:400568
+h@/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:42223
+anonymous
+instantiate@/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:97488
+/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:17690
+/Users/user/Documents/demos/karma_jasmine_2_extjs4/app-tests/example.js:47:41
+</failure>
+    <failure type="">Expected null to be truthy.
+/Users/user/Documents/demos/karma_jasmine_2_extjs4/app-tests/example.js:69:45
+</failure>
+  </testcase>
+  <testcase name="Basic Ext Assumption Basic Controller Assumption Expect Users Store" time="0.003" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Basic Ext Assumption">
+    <failure type="">TypeError: undefined is not an object (evaluating 'this.application.getModel') in /Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js (line 21)
+getModel@/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:402021
+/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:17621
+createGetters@/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:401014
+constructor@/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:400568
+h@/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:42223
+anonymous
+instantiate@/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:97488
+/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:17690
+/Users/user/Documents/demos/karma_jasmine_2_extjs4/app-tests/example.js:47:41
+</failure>
+    <failure type="">Expected null to be truthy.
+/Users/user/Documents/demos/karma_jasmine_2_extjs4/app-tests/example.js:73:34
+</failure>
+  </testcase>
+  <testcase name="Basic Ext Assumption Basic Controller Assumption Expect 2 items in the store" time="0.002" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Basic Ext Assumption">
+    <failure type="">TypeError: undefined is not an object (evaluating 'this.application.getModel') in /Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js (line 21)
+getModel@/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:402021
+/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:17621
+createGetters@/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:401014
+constructor@/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:400568
+h@/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:42223
+anonymous
+instantiate@/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:97488
+/Users/user/Documents/demos/karma_jasmine_2_extjs4/extjs/ext-all.js:21:17690
+/Users/user/Documents/demos/karma_jasmine_2_extjs4/app-tests/example.js:47:41
+</failure>
+    <failure type="">TypeError: null is not an object (evaluating 'store.getCount') in /Users/user/Documents/demos/karma_jasmine_2_extjs4/app-tests/example.js (line 77)
+/Users/user/Documents/demos/karma_jasmine_2_extjs4/app-tests/example.js:77:22
+</failure>
+  </testcase>
+  <testcase name="Basic Ext Assumption Ext.Ajax.request demo should make a real AJAX request" time="0.014" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Basic Ext Assumption"/>
+  <system-out>
+    <![CDATA[PhantomJS 2.1.1 (Mac OS X 0.0.0) LOG: 'Starting Tests...'
+,PhantomJS 2.1.1 (Mac OS X 0.0.0) LOG: 'is callback being called?'
+,PhantomJS 2.1.1 (Mac OS X 0.0.0) LOG: 'it data is: [object Object]'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

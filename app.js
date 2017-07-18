@@ -4,6 +4,14 @@
     Sencha Cmd when upgrading.
 */
 
+Ext.Loader.setConfig({
+    enabled: true,
+    paths: {
+        'AM': 'app'
+    },
+    disableCaching: false
+});
+
 Ext.application({
     name: 'AM',
     controllers: [

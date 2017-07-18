@@ -1,1 +1,1 @@
-node node_modules\karma\bin\karma start karma_start.js
+node node_modules/karma/bin/karma start karma_start.js
