@@ -22,7 +22,6 @@ module.exports = function(config) {
             { pattern: 'data/users.json', watched: false, included: false, served: true }, // this file will be served when our ajax calls requires it
             "app/store/Users.js",
             "app/controller/Users.js",
-
             "app-tests/example.js" // you can add as many test files as required.
         ],
         // reporters are different ways to display your reports and/or types of reports
