@@ -16,7 +16,6 @@ module.exports = function(config) {
             "extjs/ext-all.js", // 1
             "karma_app_test.js", // 2
             "karma_extjs_appconfig.js", // 3
-
             "app/model/User.js",
             "app/view/user/Edit.js",
             "app/view/user/List.js",
