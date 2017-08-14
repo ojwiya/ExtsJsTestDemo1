@@ -1,0 +1,7 @@
+.git/**/*
+node_modules/**/*
+coverage/**/*
+data/**/*
+karma_dir/**/*
+shared/**/*
+PhantomJS_2.1.1_(Mac_OS_X_0.0.0)/**/*

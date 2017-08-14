@@ -3,6 +3,11 @@
     "description": "extjsUnitTest",
     "version": "0.0.1",
     "private": true,
+    "scripts": {
+        "test": "gulp test",
+        "lint": "eslint *.js",
+        "dev": "gulp dev"
+    },
     "dependencies": {
         "gulp-compass": "1.1.x",
         "gulp-concat": "2.2.x",
@@ -14,11 +19,12 @@
         "yargs": "1.2.x"
     },
     "devDependencies": {
+        "eslint": "^4.3.0",
         "gulp": "^3.9.1",
-        "karma": "~0.13.3",
         "gulp-webserver": "^0.9.1",
         "jasmine-core": "^2.6.4",
         "jasmine-reporters": "^1.1.0",
+        "karma": "~0.13.3",
         "karma-chrome-launcher": "^2.2.0",
         "karma-coverage": "^1.1.1",
         "karma-extjs": "^0.1.8",

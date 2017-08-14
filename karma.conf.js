@@ -30,8 +30,8 @@ module.exports = function(config) {
         port: 9876,
         // your coverage reporter, needs a type and a location to be displayed.
         coverageReporter: {
-            type: 'html',
-            dir: 'coverage/'
+            type: 'cobertura',
+            dir: 'coverage'
         },
         // you can associate various types of services and reports to file.
         // in our case, we are associating coverage with files for analysing the amount of function coverage each file is getting from the tests.
