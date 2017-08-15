@@ -43,10 +43,10 @@ module.exports = function(config) {
         },
         // setting up the output directory of html Reporter which will reporter the Jasmine unit tests info (what passes and fails)
         htmlReporter: {
-            outputDir: 'karma_dir'
+            outputDir: 'test_results/html'
         },
         junitReporter: {
-            outputDir: '', // results will be saved as $outputDir/$browserName.xml
+            outputDir: 'test_results/xml', // results will be saved as $outputDir/$browserName.xml
             outputFile: 'extjs_test_jasmine_js.xml', // if included, results will be saved as $outputDir/$browserName/$outputFile
             suite: '', // suite will become the package name attribute in xml testsuite element
             useBrowserName: true, // add browser name to report and classes names

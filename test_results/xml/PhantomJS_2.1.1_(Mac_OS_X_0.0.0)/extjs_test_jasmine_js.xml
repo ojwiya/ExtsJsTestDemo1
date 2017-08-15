@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<testsuite name="PhantomJS 2.1.1 (Mac OS X 0.0.0)" package="" timestamp="2017-08-15T06:00:43" id="0" hostname="MacBook-Pro-dom" tests="5" errors="0" failures="4" time="5.022">
+<testsuite name="PhantomJS 2.1.1 (Mac OS X 0.0.0)" package="" timestamp="2017-08-15T08:00:15" id="0" hostname="MacBook-Pro-dom" tests="5" errors="0" failures="4" time="5.02">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
   </properties>
-  <testcase name="Basic Ext Assumption has ExtJS 4 loaded" time="0.004" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Basic Ext Assumption"/>
+  <testcase name="Basic Ext Assumption has ExtJS 4 loaded" time="0.005" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Basic Ext Assumption"/>
   <testcase name="Basic Ext Assumption Basic Controller Assumption Expect UsersController Controller" time="0.004" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Basic Ext Assumption">
     <failure type="">TypeError: undefined is not an object (evaluating 'this.application.getModel') in /Users/user/Documents/demos/karma_jasmine_2_extjs4/base/extjs/ext-all.js (line 21)
 getModel@/Users/user/Documents/demos/karma_jasmine_2_extjs4/base/extjs/ext-all.js:21:402021
@@ -36,7 +36,7 @@ instantiate@/Users/user/Documents/demos/karma_jasmine_2_extjs4/base/extjs/ext-al
 /Users/user/Documents/demos/karma_jasmine_2_extjs4/base/app-tests/example.js:73:34
 </failure>
   </testcase>
-  <testcase name="Basic Ext Assumption Basic Controller Assumption Expect 2 items in the store" time="0.002" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Basic Ext Assumption">
+  <testcase name="Basic Ext Assumption Basic Controller Assumption Expect 2 items in the store" time="0.003" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Basic Ext Assumption">
     <failure type="">TypeError: undefined is not an object (evaluating 'this.application.getModel') in /Users/user/Documents/demos/karma_jasmine_2_extjs4/base/extjs/ext-all.js (line 21)
 getModel@/Users/user/Documents/demos/karma_jasmine_2_extjs4/base/extjs/ext-all.js:21:402021
 /Users/user/Documents/demos/karma_jasmine_2_extjs4/base/extjs/ext-all.js:21:17621
@@ -52,7 +52,7 @@ instantiate@/Users/user/Documents/demos/karma_jasmine_2_extjs4/base/extjs/ext-al
 /Users/user/Documents/demos/karma_jasmine_2_extjs4/base/app-tests/example.js:77:22
 </failure>
   </testcase>
-  <testcase name="Basic Ext Assumption Ext.Ajax.request demo should make a real AJAX request" time="5.009" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Basic Ext Assumption">
+  <testcase name="Basic Ext Assumption Ext.Ajax.request demo should make a real AJAX request" time="5.005" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Basic Ext Assumption">
     <failure type="">Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
 </failure>
     <failure type="">Expected undefined to equal Object({ success: true, users: [ Object({ id: 1, name: 'Ed', email: 'ed@sencha.com' }), Object({ id: 2, name: 'Tommy', email: 'tommy@sencha.com' }) ] }).
