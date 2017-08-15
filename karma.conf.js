@@ -1,7 +1,7 @@
 module.exports = function(config) {
     config.set({
         // basePath is used to resolve all patterns of files
-        basePath: '/Users/user/Documents/demos/karma_jasmine_2_extjs4',
+        //basePath: '/Users/user/Documents/demos/karma_jasmine_2_extjs4',
         // frameworks to select which unit testing framework you will be using
         frameworks: ["jasmine"],
         // for extjs this is tricky as you will need the following files
@@ -31,8 +31,10 @@ module.exports = function(config) {
         // your coverage reporter, needs a type and a location to be displayed.
         coverageReporter: {
             type: 'cobertura',
-            dir: 'coverage'
+            dir: 'coverage/',
+            file: 'coverage.xml'
         },
+
         // you can associate various types of services and reports to file.
         // in our case, we are associating coverage with files for analysing the amount of function coverage each file is getting from the tests.
         preprocessors: {

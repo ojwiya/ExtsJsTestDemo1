@@ -6,7 +6,8 @@
     "scripts": {
         "test": "gulp test",
         "lint": "eslint *.js",
-        "dev": "gulp dev"
+        "dev": "gulp dev",
+        "watch": " gulp watch"
     },
     "dependencies": {
         "gulp-compass": "1.1.x",
