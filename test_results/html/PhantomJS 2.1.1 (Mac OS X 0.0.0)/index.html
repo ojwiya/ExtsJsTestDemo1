@@ -93,20 +93,17 @@ body { background-color: #eeeeee; padding: 0; margin: 5px; overflow-y: scroll; }
 </style>
 </head>
 
-<body id="HTMLReporter" class="html-reporter showDetails">
+<body id="HTMLReporter" class="html-reporter">
 <h1>Tested in PhantomJS 2.1.1 (Mac OS X 0.0.0) on Thu Aug 17 2017</h1>
 
 <div class="alert">
 
 
-<!-- <span class="failingAlert bar">Failed 4 specs</span> -->
-<span class="failingAlert bar"><span class="fold-buttons"><a href="#" onclick="fold();">Fold</a> | 
-  <a href="#" onclick="unfold();">Unfold</a></span>5 specs, 4 failed, 0 pending</span>
-<span class="resultsMenu bar">
-<a class="summaryMenuItem" onclick="showSummary();" href="#">Spec List<a>|<a 
-   class="detailsMenuItem" onclick="showFailures();" href="#">Failures</a>
-</span>
 
+  
+  <span class="passingAlert bar"><span class="fold-buttons"><a href="#" onclick="fold();">Fold</a> | 
+  <a href="#" onclick="unfold();">Unfold</a></span>1 specs, 0 failed, 0 pending</span>
+  
 
 
 </div>
@@ -126,99 +123,10 @@ body { background-color: #eeeeee; padding: 0; margin: 5px; overflow-y: scroll; }
     
     </div>
   
-    <div class="suite failed">
-      <span class="description">Basic Ext Assumption Basic Controller Assumption</span>
-    
-      <div class="specSummary failed">
-      <span class="description">Expect UsersController Controller</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">Expect Users Store</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">Expect 2 items in the store</span>
-      </div>
-    
-    </div>
-  
-    <div class="suite failed">
-      <span class="description">Basic Ext Assumption Ext.Ajax.request demo</span>
-    
-      <div class="specSummary failed">
-      <span class="description">should make a real AJAX request</span>
-      </div>
-    
-    </div>
-  
   
 </div>
 
 <div id="details">
-  
-  
-  <div class="specDetail failed">
-    <span class="description">Basic Ext Assumption Basic Controller Assumption Expect UsersController Controller</span>
-    <div class="stackTrace">
-      <div class="resultMessage">TypeError: undefined is not an object (evaluating 'this.application.getModel') in http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e (line 21)
-getModel@http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:402021
-http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:17621
-createGetters@http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:401014
-constructor@http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:400568
-h@http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:42223
-anonymous
-instantiate@http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:97488
-http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:17690
-http://localhost:9876/base/base/app-tests/example.js?f837871ef06aba43e8437f0089f3d80a5fdbc448:47:41,Expected null to be truthy.
-http://localhost:9876/base/base/app-tests/example.js?f837871ef06aba43e8437f0089f3d80a5fdbc448:69:45</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Basic Ext Assumption Basic Controller Assumption Expect Users Store</span>
-    <div class="stackTrace">
-      <div class="resultMessage">TypeError: undefined is not an object (evaluating 'this.application.getModel') in http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e (line 21)
-getModel@http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:402021
-http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:17621
-createGetters@http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:401014
-constructor@http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:400568
-h@http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:42223
-anonymous
-instantiate@http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:97488
-http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:17690
-http://localhost:9876/base/base/app-tests/example.js?f837871ef06aba43e8437f0089f3d80a5fdbc448:47:41,Expected null to be truthy.
-http://localhost:9876/base/base/app-tests/example.js?f837871ef06aba43e8437f0089f3d80a5fdbc448:73:34</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Basic Ext Assumption Basic Controller Assumption Expect 2 items in the store</span>
-    <div class="stackTrace">
-      <div class="resultMessage">TypeError: undefined is not an object (evaluating 'this.application.getModel') in http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e (line 21)
-getModel@http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:402021
-http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:17621
-createGetters@http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:401014
-constructor@http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:400568
-h@http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:42223
-anonymous
-instantiate@http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:97488
-http://localhost:9876/base/base/extjs/ext-all.js?37277dfedbe920454b0b42a34c9600589171704e:21:17690
-http://localhost:9876/base/base/app-tests/example.js?f837871ef06aba43e8437f0089f3d80a5fdbc448:47:41,TypeError: null is not an object (evaluating 'store.getCount') in http://localhost:9876/base/base/app-tests/example.js?f837871ef06aba43e8437f0089f3d80a5fdbc448 (line 77)
-http://localhost:9876/base/base/app-tests/example.js?f837871ef06aba43e8437f0089f3d80a5fdbc448:77:22</div>
-    </div>
-  </div>
-  
-  
-  
-  <div class="specDetail failed">
-    <span class="description">Basic Ext Assumption Ext.Ajax.request demo should make a real AJAX request</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.,Expected undefined to equal Object({ success: true, users: [ Object({ id: 1, name: 'Ed', email: 'ed@sencha.com' }), Object({ id: 2, name: 'Tommy', email: 'tommy@sencha.com' }) ] }).
-http://localhost:9876/base/base/app-tests/example.js?f837871ef06aba43e8437f0089f3d80a5fdbc448:112:33</div>
-    </div>
-  </div>
-  
   
 </div>
 
@@ -231,7 +139,7 @@ document.body.onkeypress = function (e) {
   switch (e.keyCode) {
     case 102: toggleFold(); break;
     case 49: showSummary(); break;
-    case 50: showFailures(); break;case 50: showFailures(); break;
+    
   }
 };
 

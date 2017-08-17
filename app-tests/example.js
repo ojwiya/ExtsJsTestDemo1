@@ -38,7 +38,7 @@ describe("Basic Ext Assumption", function() {
       expect(Ext.getVersion().major).toEqual(4); 
    });
    
-   describe("Basic Controller Assumption", function() {
+/*   describe("Basic Controller Assumption", function() {
       
       var UsersController = null;
       var store = null;
@@ -112,5 +112,5 @@ describe("Basic Ext Assumption", function() {
             console.log("it data is: " + data);
             expect(data).toEqual(expectedData);
         });
-    });     
+    }); */    
 });

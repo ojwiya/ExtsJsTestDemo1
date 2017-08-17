@@ -7,7 +7,7 @@
         "test": "gulp test",
         "lint": "eslint *.js -f checkstyle > test_results/lint.xml",
         "dev": "gulp dev",
-        "watch": " gulp watch"
+        "watch": "gulp watch"
     },
     "dependencies": {
         "gulp-compass": "1.1.x",
