@@ -5,7 +5,7 @@
     "private": true,
     "scripts": {
         "test": "gulp test",
-        "lint": "eslint *.js -f checkstyle",
+        "lint": "eslint *.js -f checkstyle > test_results/lint.xml",
         "dev": "gulp dev",
         "watch": " gulp watch"
     },

@@ -19,6 +19,7 @@ var myWaitsFor = function(conditionFunc, execFunc, timeOut) {
         clearTimeout(t);
     }
   
+  
     // at 30 milliseconds internal, this is polling for conditionFunc to return true, so that it can
     // clear the timers and run the execFunc() to finalize the loop
     i = setInterval(function() {
